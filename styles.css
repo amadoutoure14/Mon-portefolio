@@ -29,7 +29,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color:white;
     z-index: 99;
     height: 12%;
 }
@@ -161,11 +161,21 @@ ul li a:hover {
     color: #ffffff;
 }
 
-.portfolio {
+.cv {
+    background: white;
     color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
-.portfolio:hover {
+.cv:hover {
     background-color: var(--primary-color-dark);
     color: #ffffff;
 }
