@@ -14,19 +14,91 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-
-a {
-    text-decoration: none;
+header a{
+    text-decoration: none !important;
 }
-
-body {
-    font-family: "Poppins", sans-serif;
+.accueil{
+    margin-top: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
-main{
-    margin-top: 6%;
+.text_accueil{
+    text-transform: lowercase;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  start;
+    padding-left: 10%;
 }
-
+.image_profil{
+   background-color: lightblue !important;
+   width: 50%;
+   height: 100vh;
+   box-shadow: 12px 20px 30px brown;
+}
+.image_profil img{
+    padding: 0 30px;
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+   
+    animation: infinite UpAndDown 10.0s;
+}
+.nom{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.statut{
+    font-size: 25px;
+    color: brown;
+}
+.apropos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.apropos_intro{
+    padding: 0 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.contenu_apropos{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 0 20px;
+    background-color: lightblue;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.titre_apropos{
+    width: 50%;
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titre_style{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+@keyframes UpAndDown {
+    from{
+        padding-top: 30px;
+    }
+    to{
+        padding-bottom: 30px;
+    }
+}
 nav {
     margin: 0;
     padding: 20px;
