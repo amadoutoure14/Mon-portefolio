@@ -1,4 +1,4 @@
-@import url("Monda\Monda-Bold.ttf");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 :root {
     --primary-color: #ffffff;
     --primary-color-dark: rgb(255, 187, 133);
@@ -13,97 +13,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-header a{
-    text-decoration: none !important;
-}
-.accueil{
-    margin-top: 12vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-.text_accueil{
-    text-transform: lowercase;
-    height: 100vh;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:  start;
-    padding: 0 21px;
-}
-.image_profil{
-   background-color: lightblue !important;
-   width: 50%;
-   height: 100vh;
-   box-shadow: 10px 0 30px brown;
-}
-.image_profil img{
-    padding: 0 30px;
-    width: 560px;
-    height: 560px;
-    border-radius: 50%;
-    animation: infinite UpAndDown 10.0s;
-}
-.nom{
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-size: 70px;
-}   
-.statut{
-    font-size: 25px;
-    color: brown;
-}
-.apropos{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-.apropos_intro{
-    transition: ease-in-out 1s;
-    font-size: 21px;
-    font-weight: lighter;
-    color: gray;
-    padding: 0 70px;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-}
-.contenu_apropos{
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    padding: 0 20px;
-    background-color: lightblue;
-    height: 100vh;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-.titre_apropos{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.titre_style{
-    font-size: 100px;
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-@keyframes UpAndDown {
-    from{
-        padding-top: 30px;
-        transition: 0.3ms;
-    }
-    to{
-        padding-bottom: 30px;
-        transition: 0.5ms;
-    }
-}
-nav {
+}nav {
     margin: 0;
     padding: 20px;
     text-transform: uppercase;
@@ -171,7 +81,148 @@ ul li a:hover {
     color: var(--secondary-color);
     transition: 0.3s;
 }
-
+header a{
+    text-decoration: none !important;
+}
+.accueil{
+    margin-top: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.text_accueil{
+    text-transform: lowercase;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  start;
+    padding: 0 21px;
+}
+.image_profil{
+   background-color: lightblue !important;
+   width: 50%;
+   height: 100vh;
+   border-radius: 10px;
+   box-shadow: 5px 15px 25px lightblue !important;
+}
+.image_profil img{
+    padding: 0 30px;
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    animation: infinite UpAndDown 10.0s;
+}
+.nom{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 70px;
+}   
+.statut{
+    font-size: 25px;
+    color: brown;
+}
+.apropos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.apropos_intro{
+    transition: ease-in-out 1s;
+    font-size: 21px;
+    font-weight: lighter;
+    color: gray;
+    padding: 0 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.contenu_apropos{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 0 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightblue !important;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.titre_apropos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titre_style{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+@keyframes UpAndDown {
+    from{
+        padding-top: 30px;
+        transition: 0.3ms;
+    }
+    to{
+        padding-bottom: 30px;
+        transition: 0.5ms;
+    }
+}
+.portefolio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.portefolio_titre{
+    width: 50%;
+    height: 145vh;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 5px 15px 25px lightblue !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portefolio_titre_style{
+   font-size: xx-large;
+   font-weight: bolder;
+   text-transform: uppercase
+}
+.portefolio_contenu{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.projets{
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+}
+.projet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 2%;
+    box-shadow: 1px 1px 50px black;
+    border: 3px solid black;
+    width: 400px;
+    height: 400px;
+    
+}
+.titre_projet{
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
 @media (width < 780px) {
     nav .checkbox {
         display: block;
