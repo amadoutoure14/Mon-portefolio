@@ -12,8 +12,10 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins';
     box-sizing: border-box;
-}nav {
+}
+nav {
     margin: 0;
     padding: 20px;
     text-transform: uppercase;
@@ -180,7 +182,7 @@ header a{
 }
 .portefolio_titre{
     width: 50%;
-    height: 145vh;
+    height: 146vh;
     background-color: lightblue;
     border-radius: 10px;
     box-shadow: 5px 15px 25px lightblue !important;
@@ -194,13 +196,14 @@ header a{
    text-transform: uppercase
 }
 .portefolio_contenu{
+    padding-top: 2%;
     height: 100vh;
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 .projets{
-    padding: 1%;
+    padding: 0 1%;
     display: flex;
     flex-direction: row;
 }
@@ -216,12 +219,13 @@ header a{
     border: 3px solid black;
     width: 400px;
     height: 400px;
-    
 }
 .titre_projet{
     text-transform: uppercase;
     font-weight: bolder;
-    
+}
+.contenu_projet{
+    text-align: justify;
 }
 @media (width < 780px) {
     nav .checkbox {
