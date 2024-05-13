@@ -156,6 +156,11 @@ header a{
     justify-content: center;
     align-items: center;
     text-align: justify;
+    cursor: pointer;
+}
+.apropos_intro:hover{
+    color: #000000;
+    transition: color 0.10s ease-in-out;
 }
 .contenu_apropos{
     margin: 1%;
@@ -177,6 +182,11 @@ header a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer; 
+}
+.titre_style:hover{
+    color: brown;
+    transition: color 0.10s ease;
 }
 .titre_style{
     font-size: 100px;
