@@ -335,9 +335,10 @@ footer{
     main{
        display: flex;
        flex-direction: column;
-       margin-left: 12%;
+      margin-left: 5%;
     }
     .accueil{
+        width: 100vw;
         transition: 0.5s;
         display: flex;
         justify-content: center;
@@ -353,6 +354,7 @@ footer{
         color: brown;
     }
     .image_profil{
+        margin: 2%;
         width: 100vw;
         height: 40vh;
 }
@@ -367,14 +369,15 @@ footer{
     height: 260px;
 }
 .apropos{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
    justify-content: center;
 }
 .titre_apropos{
-    width: 100%;
+    margin: 2%;
+    width: 100vw;
 }
 .titre_style{
     font-size: 50px;
@@ -383,8 +386,9 @@ footer{
 }
 
 .apropos_intro{
+    margin: 2%;
     height: 10vh;
-    width: 100%;
+    width: 100vw;
     transition: 1.0s;
     font-size: 12px;
     font-weight: 500;
@@ -394,7 +398,7 @@ footer{
 .contenu_apropos{
     transition: 1.0s;
     margin: 2%;
-   width: 100%;
+    width: 100vw;
    height: 90vh;
    display: flex;
    flex-direction: column;
@@ -402,6 +406,35 @@ footer{
    justify-content: center;
 }
 .portefolio{
-    flex-direction: column-reverse;
+    flex-direction: column;
+}
+
+.portefolio_titre{
+    margin: 2%;
+    width: 100vw;
+    height: 6vh;
+    background-color: white;
+    box-shadow: none !important;
+}
+.portefolio_titre_style{
+    font-size:x-large;
+    background-color: white;
+    box-shadow: 0 0 0  white;
+}
+.portefolio_contenu{
+
+    margin: 5% 0;
+    background-color: lightblue;
+    width: 100vw;
+    height: 110vh;
+    box-shadow: 5px 15px 10px lightblue !important;
+}
+.projet{
+    background-color: white;
+}
+footer{
+    padding: 5%;
+    width: 118vw;
+   flex-direction: column;
 }
 }
