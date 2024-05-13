@@ -107,6 +107,7 @@ header a{
    height: 100vh;
    border-radius: 10px;
    box-shadow: 5px 15px 25px lightblue !important;
+   background: linear-gradient(to bottom right, rgba(0, 0, 255, 0.5), rgba(255, 165, 0, 0.5));
    padding: 2% 5%;
 }
 .image_profil img{
@@ -114,7 +115,6 @@ header a{
     height: 460px;
     border-radius: 50%;
     animation: upAndDown 3s ease infinite;
-    background: linear-gradient(to bottom right, rgba(0, 0, 255, 0.5), rgba(255, 165, 0, 0.5));
     box-shadow: 0 0 50px gold;
 }
 @keyframes upAndDown {
