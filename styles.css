@@ -436,13 +436,14 @@ footer{
     background-color: lightblue;
     width: 100vw;
     height: 140vh;
+    border-radius: 10px;
     box-shadow: 5px 15px 10px lightblue !important;
 }
 .projet{
     background-color: white;
 }
 footer{
-    height: 40vh;
+    height: 42vh;
     padding: 5%;
     width: 118vw;
    flex-direction: column;
